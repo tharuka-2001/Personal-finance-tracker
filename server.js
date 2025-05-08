@@ -34,6 +34,7 @@ app.use('/api/users', require('./routes/users'));
 app.use('/api/transactions', require('./routes/transactions'));
 app.use('/api/budgets', require('./routes/budgets'));
 app.use('/api/goals', require('./routes/goals'));
+app.use('/api/dashboard', require('./routes/dashboard'));
 
 // Error handling middleware
 app.use((err, req, res, next) => {
